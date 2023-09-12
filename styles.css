@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/** top part**/
+.main {
+  background-image: url("/assets/bg1.jpg");
+  padding: 21px 120px;
+  max-height: 960px;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo {
+  padding-top: 21px;
+  padding-right: 146px;
+}
+.top {
+  max-width: 1440px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  padding-top: 50px;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+}
+
+.menu ul li:not(:last-child) {
+  padding-right: 35px;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding-left: 178px;
+  padding-top: 40px;
+}
+
+.logo1 {
+  padding: 0px 17px;
+}
+
+.language {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: white;
+  padding-right: 6px;
+}
+
+.line {
+  padding: 0 24px;
+}
+
+/**a center part **/
+
+.center {
+  font-family: Bebas Neue;
+  text-align: center;
+  padding: 7px 0px;
+  color: white;
+  margin: 250px;
+}
+
+.btn {
+  border: 0.87px solid rgba(26, 25, 23, 1);
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  width: 260px;
+  height: 60px;
+  margin: 28px 0px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/**a scroll down**/
+
+.down {
+  display: flex;
+  flex-direction: column;
+  width: 68px;
+  height: 24px;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: justified;
+  color: white;
+  padding: 0px 510px;
+}
+
+.down img {
+  width: 20px;
+  height: 8px;
+}
+
+/**footer**/
+
+.footer {
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 160px;
+}
+
+.info {
+  padding: 220px 70px;
+}
+
+.data {
+  padding-bottom: 40px;
+}
+.data h3 {
+  font-family: Bebas Neue;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: white;
+}
+
+.data h1 {
+  font-family: Bebas Neue;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+  padding-top: 0px;
+}
+
+.data span {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  text-align: left;
+}
+
+form input {
+  width: 50%;
+  height: 70px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 181, 72, 1);
+}
+
+.subscribe {
+  background: rgba(255, 181, 72, 1);
+  width: 40%;
+  height: 75px;
+  margin-left: 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.interaction {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.socialMedias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 86px;
+}
+
+.socialMedias img:not(:last-child) {
+  padding-right: 60px;
+}
+
+.policy {
+  padding-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.solidLine {
+  border-top: 0.87px solid rgb(99, 90, 90);
+  padding-bottom: 30px;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+
+.reserved {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgb(119, 106, 106);
+}
+
+.laws {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: white;
+}
