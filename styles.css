@@ -10,7 +10,7 @@
 header {
   background-image: url("/assets/bg1.jpg");
   padding: 21px 120px;
-  max-height: 960px;
+  height:100%;
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,7 +131,8 @@ header {
   text-align: center;
   color: white;
   padding: 0px 510px;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .down img {
