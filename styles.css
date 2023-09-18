@@ -5,6 +5,7 @@
 .container{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 /** top part**/
 header {
@@ -274,4 +275,108 @@ form input {
   letter-spacing: 0.1em;
   text-align: right;
   color: white;
+}
+
+/**First sectin in the main part**/
+.main__first-section{
+  background-image: url('/assets/main_part/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height:700px;
+  box-sizing: border-box;
+  
+}
+
+.main__first-section__content{
+  justify-content: space-between;
+}
+.main__first-section___info{
+  font-family: Bebas Neue;
+  text-align: left;
+  flex:4; /*a shorthand*/
+  color:white;
+  margin-right: 20px;
+  padding: 150px 0px;
+}
+
+.main__first-section___info__label{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  
+}
+
+.main__first-section___info__header{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  
+}
+.main__first-section__info__line{
+  border-top: 0.9px solid white;
+  padding-bottom: 20px;
+}
+.main__first-section__info__description{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.main__first-section_images{
+ 
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  display: flex;
+  padding: 60px 0px;
+  flex:5;
+}
+
+.main__first-section_images >*img{
+  padding: 0px 15px;
+  border-radius: 3%;
+}
+.main__first-section_images__card{
+  flex: 0 0 auto;
+  margin-right: -380px;
+  object-fit: cover;
+}
+.main__first-section_images__card img{
+  height: 100%;
+  width: 100%;
+}
+
+.main__first-section_images__card:nth-child(1){
+  width: 400px;
+  height: 500px;
+}
+.main__first-section_images__card:nth-child(2){
+  width: 400px;
+  height: 450px;
+}
+.main__first-section_images__card:nth-child(3){
+  width: 400px;
+  height: 400px;
+}
+
+.main__first-section_images__card:nth-child(1){
+  z-index: 100;
+  
+}
+.main__first-section_images__card:nth-child(2){
+  z-index: 50;
+}
+.main__first-section_images__card:nth-child(3){
+  z-index: 10;
+  
+}
+
+.main__first-section-switch{
+  margin: auto 50px;
+  flex:1;
 }
