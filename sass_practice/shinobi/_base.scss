@@ -1,7 +1,18 @@
-//there is a nesting rule
+
 h1{
+    color:$primary;
+    padding: $base-padding;
+}
+
+a{
+    color:$secondary
+}
+
+button{
+    color:white;
+    background: $info;
+//there is a nesting rule
     a{
-        color:red
     }
 }
 
