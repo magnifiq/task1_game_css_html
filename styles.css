@@ -10,7 +10,7 @@
 /** top part**/
 header {
   background-image: url("/assets/bg1.jpg");
-  padding: 21px 120px;
+  padding: 0px 120px;
   height:100%;
   background-size: 100% auto;
   background-position: center;
@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-direction: row;
   list-style: none;
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -64,7 +64,7 @@ header {
 }
 
 .language {
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -108,7 +108,7 @@ header {
   width: 260px;
   height: 60px;
   margin: 28px 0px;
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -124,7 +124,7 @@ header {
   width: 68px;
   height: 24px;
   align-items: center;
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 22px;
@@ -185,7 +185,7 @@ footer {
 }
 
 .data span {
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -206,7 +206,7 @@ form input {
   width: 30%;
   height: 75px;
   margin-left: 10px;
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
@@ -259,7 +259,7 @@ form input {
 }
 
 .reserved {
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
@@ -268,7 +268,7 @@ form input {
 }
 
 .laws {
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -320,7 +320,7 @@ form input {
   padding-bottom: 20px;
 }
 .main__first-section__info__description{
-  font-family: Open Sans;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   font-weight: 400;
 
